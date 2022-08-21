@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700&display=swap');
+
+body {
+    background-color: #FFF7F0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 71px;
+    text-align: center;
+    color: #030303;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #7A746E;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1110px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 34px;
+    margin-bottom: 66px;
+}
+
+.pic {
+    width: 64px;
+    height: 64px;
+}
+
+.btn_a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFF7F0;
+    padding: 14px 45px;
+    border-radius: 28px;
+    background-color: #030303;
+    text-align: center;
+}
+
+.caption {
+    max-width: 752px;
+    height: 150px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.cards {
+    height: 364px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 24px;
+    margin-bottom: 136px;
+}
+
+.card {
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding: 24px;
+    position: relative;
+}
+
+.thumb {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+}
+
+.subscription {
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+}
+
+.graphic_design {
+    grid-column: span 4;
+    grid-row: span 2;
+    background-color: #755CDE;
+}
+
+.ui_ux {
+    grid-column: span 2;
+    grid-row: span 1;
+    background-color: #F6A560;
+}
+
+.apps {
+    grid-column: span 2;
+    grid-row: span 1;
+    background-color: #F39E9E;
+}
+
+.photography {
+    grid-column: span 4;
+    grid-row: span 1;
+    background-color: #61C4B7;
+}
+
+.illustrations {
+    grid-column: span 4;
+    grid-row: span 1;
+    background-color: #EB7565;
+}
+
+.motion_graphics {
+    grid-column: span 4;
+    grid-row: span 1;
+    background-color: #552049;
+}
