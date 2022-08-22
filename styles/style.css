@@ -192,6 +192,12 @@ h3 {
     color: #030303;
 }
 
+.slider_wrapper {
+    overflow: hidden;
+    width: 100vw;
+    height: 360px;
+}
+
 .slides {
     margin: 56px 0;
     display: flex;
@@ -259,4 +265,11 @@ h3 {
     align-items: center;
     margin-top: 34px;
     margin-bottom: 64px;
+}
+
+@media  and (max-width: 768px) {
+    .wrapper {
+        margin: 0 auto;
+        max-width: 690px;
+    }
 }
