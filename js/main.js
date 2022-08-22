@@ -1,4 +1,3 @@
-const slider = document.querySelectorAll('.slider_wrapper');
 const next = document.querySelector('.btn_right');
 const prev = document.querySelector('.btn_left');
 const slides = [];
