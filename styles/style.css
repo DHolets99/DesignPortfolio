@@ -222,6 +222,11 @@ h3 {
     height: 64px;
     border-radius: 38px;
     background-color: #030303;
+    cursor: pointer;
+}
+
+.btn_left:hover, .btn_right:hover {
+    background-color: #755CDE;
 }
 
 .call {
