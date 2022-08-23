@@ -374,6 +374,11 @@ h3 {
 
     .caption {
         margin-bottom: 32px;
+        height: 100%;
+    }
+
+    .h1_title {
+        margin-bottom: 16px;
     }
 
     .description {
