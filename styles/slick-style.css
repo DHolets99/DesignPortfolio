@@ -1,0 +1,36 @@
+.slider {
+    width: 100vw;
+}
+
+.slide {
+    
+}
+
+.slick-arrow {
+    margin: 0 auto;
+    width: 144px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slick-prev, .slick-next {
+    border: none;
+    width: 64px;
+    height: 64px;
+    border-radius: 38px;
+    background-color: #030303;
+    cursor: pointer;
+}
+
+.slick-prev:hover, .slick-next:hover {
+    border: none;
+    background-color: #755CDE;
+}
+
+.slick-prev {
+    background: url(../assets/icon-arrow-left.svg) no-repeat center;
+}
+
+.slick-next {
+    background: url(../assets/icon-arrow-right.svg) no-repeat center;
+}

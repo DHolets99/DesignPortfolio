@@ -194,50 +194,6 @@ h3 {
     color: #030303;
 }
 
-/*.slider_wrapper {
-    height: 360px;
-    width: 100vw;
-    position: relative;
-}*/
-
-/*.slides {
-    height: inherit;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    gap: 30px;
-}*/
-
-.arrows {
-    margin: 0 auto;
-    width: 144px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.btn_left {
-    background: url(../assets/icon-arrow-left.svg) no-repeat center;
-}
-
-.btn_right {
-    background: url(../assets/icon-arrow-right.svg) no-repeat center;
-}
-
-.btn_left, .btn_right {
-    border: none;
-    width: 64px;
-    height: 64px;
-    border-radius: 38px;
-    background-color: #030303;
-    cursor: pointer;
-}
-
-.btn_left:hover, .btn_right:hover {
-    border: none;
-    background-color: #755CDE;
-}
-
 .call {
     background-color: #030303;
     border-radius: 10px;
