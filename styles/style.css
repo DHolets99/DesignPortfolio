@@ -229,36 +229,7 @@ h3 {
     margin-bottom: 64px;
 }
 
-@media screen and (max-width: 769px) {
-    h1 {
-        font-size: 44px;
-        line-height: 55px;
-    }
-
-    h2 {
-        font-size: 32px;
-        line-height: 40px;
-    }
-
-    .wrapper {
-        margin: 0 auto;
-        max-width: 690px;
-        padding: 0 39px;
-    }
-
-    .header {
-        margin-bottom: 64px;
-    }
-
-    .caption {
-        margin-bottom: 64px;
-    }
-
-    .cards {
-        height: 570px;
-        margin-bottom: 120px;
-    }
-
+@media screen and (max-width: 900px) {
     .graphic_design {
         order: 0;
         grid-column: span 6;
@@ -293,6 +264,42 @@ h3 {
         order: 5;
         grid-column: span 6;
         grid-row: span 2;
+    }
+
+    .photo {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    h1 {
+        font-size: 44px;
+        line-height: 55px;
+    }
+
+    h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .wrapper {
+        margin: 0 auto;
+        max-width: 690px;
+        padding: 0 39px;
+    }
+
+    .header {
+        margin-bottom: 64px;
+    }
+
+    .caption {
+        margin-bottom: 64px;
+    }
+
+    .cards {
+        height: 570px;
+        margin-bottom: 120px;
     }
 
     .about {
@@ -336,6 +343,14 @@ h3 {
     .call_description {
         text-align: center;
         margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .wrapper {
+        margin: 0 auto;
+        max-width: 580px;
+        padding: 0 32px;
     }
 }
 
@@ -433,6 +448,11 @@ h3 {
         width: 300px;
         height: 300px;
         margin-bottom: 40px;
+    }
+
+    .title_slider {
+        font-size: 24px;
+        line-height: 30px;
     }
 
     .about_text {

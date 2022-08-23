@@ -9,6 +9,7 @@
 
 .slide img {
     width: 100%;
+    border-radius: 10px;
 }
 
 .arrows {
@@ -42,7 +43,8 @@
 
 @media screen and (max-width: 480px) {
     .slide {
-        max-width: 270px;
-        margin: 0 15px 0 0;
+        width: 270px;
+        margin: 0 7.5px;
     }
 }
+

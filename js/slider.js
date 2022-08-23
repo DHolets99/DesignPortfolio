@@ -21,11 +21,21 @@ $(document).ready(function(){
             settings: { 
                     arrows: false,
                     centerMode: true,
-                    centerPadding: '35px',
+                    centerPadding: '80px',
                     slidesToShow: 1,
                     initialSlide: 2,
                 }
-            }
+            },
+            {   
+                breakpoint: 376,
+                settings: { 
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '20px',
+                        slidesToShow: 1,
+                        initialSlide: 2,
+                    }
+                }
         ]
         });
 });
