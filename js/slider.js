@@ -18,10 +18,10 @@ $(document).ready(function(){
             },
             {   
             breakpoint: 481,
-            settings: {
+            settings: { 
                     arrows: false,
                     centerMode: true,
-                    centerPadding: '40px',
+                    centerPadding: '35px',
                     slidesToShow: 1,
                     initialSlide: 2,
                 }
