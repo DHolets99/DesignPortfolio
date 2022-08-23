@@ -195,7 +195,6 @@ h3 {
     color: #030303;
 }
 
-
 .call {
     background-color: #030303;
     border-radius: 10px;
@@ -310,5 +309,24 @@ h3 {
     
     .description_about {
         margin-bottom: 38px;
+    }
+
+    .slides {
+        margin-bottom: 120px;
+    }
+
+    .call {
+        padding: 56px 75px 64px 75px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .call_title {
+        text-align: center;
+    }
+
+    .call_description {
+        text-align: center;
+        margin-bottom: 25px;
     }
 }

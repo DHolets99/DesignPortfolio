@@ -8,21 +8,22 @@ $(document).ready(function(){
         nextArrow: '.btn_right',
         responsive: [
             {
-                breakpoint: 768,
+                breakpoint: 769,
                 settings: {
                     arrows: false,
                     centerMode: true,
-                    centerPadding: '40px',
-                    slidesToShow: 3
+                    slidesToShow: 1,
+                    initialSlide: 2,
                 }
             },
             {   
-            breakpoint: 480,
+            breakpoint: 481,
             settings: {
                     arrows: false,
                     centerMode: true,
                     centerPadding: '40px',
-                    slidesToShow: 1
+                    slidesToShow: 1,
+                    initialSlide: 2,
                 }
             }
         ]
