@@ -32,6 +32,7 @@ h3 {
 .wrapper {
     margin: 0 auto;
     max-width: 1110px;
+    padding: 40px;
 }
 
 .header {
@@ -79,7 +80,7 @@ h3 {
     height: 364px;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
     gap: 24px;
     margin-bottom: 136px;
 }
@@ -108,37 +109,37 @@ h3 {
 
 .graphic_design {
     grid-column: span 4;
-    grid-row: span 2;
+    grid-row: span 6;
     background-color: #755CDE;
 }
 
 .ui_ux {
     grid-column: span 2;
-    grid-row: span 1;
+    grid-row: span 3;
     background-color: #F6A560;
 }
 
 .apps {
     grid-column: span 2;
-    grid-row: span 1;
+    grid-row: span 3;
     background-color: #F39E9E;
 }
 
 .photography {
     grid-column: span 4;
-    grid-row: span 1;
+    grid-row: span 3;
     background-color: #61C4B7;
 }
 
 .illustrations {
     grid-column: span 4;
-    grid-row: span 1;
+    grid-row: span 3;
     background-color: #EB7565;
 }
 
 .motion_graphics {
     grid-column: span 4;
-    grid-row: span 1;
+    grid-row: span 3;
     background-color: #552049;
 }
 
@@ -244,7 +245,70 @@ h3 {
         padding: 0 39px;
     }
 
-    .photo {
+    .header {
+        margin-bottom: 64px;
+    }
+
+    .caption {
+        margin-bottom: 64px;
+    }
+
+    .cards {
+        height: 570px;
+        margin-bottom: 120px;
+    }
+
+    .graphic_design {
+        grid-column: span 6;
+        grid-row: span 4;
+    }
+    
+    .ui_ux {
+        grid-column: span 3;
+        grid-row: span 2;
+    }
+    
+    .apps {
+        grid-column: span 3;
+        grid-row: span 2;
+    }
+    
+    .photography {
+        grid-column: span 6;
+        grid-row: span 2;
+    }
+    
+    .illustrations {
+        grid-column: span 6;
+        grid-row: span 2;
+    }
+    
+    .motion_graphics {
+        grid-column: span 6;
+        grid-row: span 2;
+    }
+
+    .about {
         height: 364px;
+        min-width: 772px;      
+        margin-bottom: 120px;
+        margin-left: -90px;
+    }
+
+    .photo_amy {
+        height: 100%;
+    }
+    
+    .about_text {
+        align-self: center;
+        max-width: 340px;
+    }
+    
+    .title_about {
+        margin-bottom: 24px;
+    }
+    
+    .description_about {
+        margin-bottom: 38px;
     }
 }
