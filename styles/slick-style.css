@@ -39,6 +39,7 @@
     border-radius: 38px;
     background-color: #030303;
     cursor: pointer;
+    transition: all 0.5 ease;
 }
 
 @media screen and (max-width: 480px) {

@@ -59,6 +59,7 @@ h3 {
     background-color: #030303;
     text-align: center;
     cursor: pointer;
+    transition: all 0.5 ease;
 }
 
 .btn_a:hover, .btn_a:focus {
